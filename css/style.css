@@ -1,0 +1,69 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* blocchi ipad */
+.ipad {
+  display: inline-block;
+  position: relative;
+}
+
+/* blocchi iphone */
+.iphone {
+  display: inline-block;
+  position: relative;
+}
+
+/* blocchi cuffie*/
+.cuffie {
+  display: inline-block;
+  position: relative;
+}
+
+/* margine seconda riga di blocchi */
+.seconda-riga {
+  margin-top: 50px;
+}
+
+/* caratteristiche box sconti */
+div .sconto {
+  position: absolute;
+  background: green;
+  width: 40px;
+  height: 20px;
+  text-align: center;
+  top: 0;
+  right: 0;
+}
+
+div .red {
+  background: red;
+  width: 40px;
+  height: 20px;
+}
+
+/* caratteristiche cuore */
+div .heart {
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  bottom: 2%;
+  font-size: 40px;
+  color: transparent;
+}
+
+/* hover prodotti */
+.ipad:hover > .heart {
+  color: red;
+}
+
+.iphone:hover > .heart {
+  color: red;
+}
+
+.cuffie:hover > .heart {
+  color: red;
+}
